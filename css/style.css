@@ -1,0 +1,61 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-logo {
+    width: 99px;
+    height: 63px;
+}
+.header-page {
+    height: 100vh;
+    background: linear-gradient(96.42deg, #C4C4C4 52.54%, rgba(196, 196, 196, 0) 71.83%);;
+}
+.nav-item {
+    color: #FFD58D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.free-call {
+    background: radial-gradient(1453.98% 5254.56% at 33.4% -129.49%, #FFD58D 0%, #FFD58D 23.96%, #FFFFFF 100%);
+    border-radius: 52px;
+}
+
+.main-offer {
+    margin-top: 15%;
+
+}
+
+.title-h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 55px;
+    line-height: 63px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.title-h1-gold {
+    color: #FFD58D;
+}
+.btn-dark-gradient {
+    background: rgb(66,66,66);
+    background: -moz-radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#424242",endColorstr="#000000",GradientType=1);
+    border-radius: 52px;
+    color: #fff;
+    margin-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-weight: bold;
+}
+
+.btn-dark-gradient:hover {
+    color: #cccccc;
+}

@@ -9,62 +9,115 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <!--Downloaded fonts-->
+    <link rel="stylesheet" href="fonts/getvoip/GetVoIP%20Grotesque.otf">
+    <link rel="stylesheet" href="fonts/getvoip/GetVoIP%20Grotesque%20Italic.ttf">
     <!--Bootstrap-5-css-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--Own-style-css-->
     <link rel="stylesheet" href="css/style.css">
+    <!--swiperJs-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
 <main>
-    <div class="main-page">
-        <div class="header">
-            <div class="burger">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img class="main-logo" src="img/main-logo.svg" alt=""/>
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">О продуктах</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Свойства</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Отзывы</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Сертификаты</a>
-                                </li>
-                            </ul>
-                            <span class="mx-4">
+    <section class="section-1">
+        <div class="main-page">
+            <div class="header-page">
+                <div class="burger">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img class="main-logo" src="img/main-logo.svg" alt=""/>q
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">О продуктах</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Свойства</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Отзывы</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Сертификаты</a>
+                                    </li>
+                                </ul>
+                                <span class="mx-4">
                                 <span>+7(707)123-4567</span> <br>
                                 <span>+7(707)123-4567</span>
                             </span>
-                            <form class="d-flex">
-                                <button class="btn btn-outline-warning" type="submit">Бесплатный звонок</button>
-                            </form>
+                                <form class="d-flex">
+                                    <button class="btn free-call fw-bold" type="submit"><i class="fas fa-phone"></i>
+                                        Бесплатный звонок
+                                    </button>
+                                </form>
+                            </div>
                         </div>
+                    </nav>
+                </div>
+                <div class="container">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-offer">
+                                    <div>
+                                        <h1 class="title-h1">
+                        <span>Начни принимать сегодня <br>
+                            <span class="title-h1-gold">получи результат <br> за 2 недели</span>
+                        </span>
+                                        </h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-dark-gradient">УЗНАТЬ О ПРОДУКТЕ</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            ...
+                        </div>
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <!--<div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>-->
+                        <!--<div class="swiper-scrollbar"></div>-->
                     </div>
-                </nav>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="section-2" style="background: #000;">
+        <div>
+            <h1 class="title-h1">
+                <span class="fw-bolder">Наши продукты</span>
+            </h1>
+        </div>
+        <div>
+
+        </div>
+    </section>
 </main>
 <footer></footer>
 
+<!--SwiperJs-->
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/script.js"></script>
 <script>
-
+    var swiper = new Swiper('.swiper-container');
 </script>
 </body>
 </html>
