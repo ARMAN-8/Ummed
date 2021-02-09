@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <!--Downloaded fonts-->
     <link rel="stylesheet" href="fonts/getvoip/GetVoIP%20Grotesque.otf">
     <link rel="stylesheet" href="fonts/getvoip/GetVoIP%20Grotesque%20Italic.ttf">
@@ -18,9 +18,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--Own-style-css-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="scss/mixin.scss">
+    <link rel="stylesheet" href="css/media-queries.css">
     <!--swiperJs-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>-->
 </head>
 <body>
 <main>
@@ -28,10 +31,10 @@
         <div class="main-page">
             <div class="header-page">
                 <div class="burger">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                         <div class="container">
                             <a class="navbar-brand" href="#">
-                                <img class="main-logo" src="img/main-logo.svg" alt=""/>q
+                                <img class="main-logo" src="img/main-logo.svg" alt=""/>
                             </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -71,20 +74,70 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="main-offer">
-                                    <div>
-                                        <h1 class="title-h1">
-                        <span>Начни принимать сегодня <br>
-                            <span class="title-h1-gold">получи результат <br> за 2 недели</span>
-                        </span>
-                                        </h1>
-                                    </div>
-                                    <div>
-                                        <button class="btn btn-dark-gradient">УЗНАТЬ О ПРОДУКТЕ</button>
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                                            <h1 class="title-h1 pt-5 mt-5">
+                                            <span>Начни принимать сегодня <br>
+                                                <span class="title-h1-gold">получи результат <br> за 2 недели</span>
+                                            </span>
+                                            </h1>
+                                            <div>
+                                                <button class="btn btn-dark-gradient">УЗНАТЬ О ПРОДУКТЕ</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                            <div class="">
+                                                <img class="main-product float-lg-end" src="img/main-product.svg"
+                                                     alt="">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">Slide 2</div>
-                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">
+                                <div class="main-offer">
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                                            <h1 class="title-h1 pt-5 mt-5">
+                                            <span>Начни принимать сегодня <br>
+                                                <span class="title-h1-gold">получи результат <br> за 2 недели</span>
+                                            </span>
+                                            </h1>
+                                            <div>
+                                                <button class="btn btn-dark-gradient">УЗНАТЬ О ПРОДУКТЕ</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                            <div class="">
+                                                <img class="main-product float-lg-end" src="img/main-product.svg"
+                                                     alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-offer">
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                                            <h1 class="title-h1 pt-5 mt-5">
+                                            <span>Начни принимать сегодня <br>
+                                                <span class="title-h1-gold">получи результат <br> за 2 недели</span>
+                                            </span>
+                                            </h1>
+                                            <div>
+                                                <button class="btn btn-dark-gradient">УЗНАТЬ О ПРОДУКТЕ</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                            <div class="">
+                                                <img class="main-product float-lg-end" src="img/main-product.svg"
+                                                     alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             ...
                         </div>
                         <div class="swiper-pagination"></div>
@@ -98,18 +151,287 @@
             </div>
         </div>
     </section>
-    <section class="section-2" style="background: #000;">
-        <div>
-            <h1 class="title-h1">
-                <span class="fw-bolder">Наши продукты</span>
-            </h1>
-        </div>
-        <div>
-
+    <section class="section-2 py-5" style="background: #000;">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="title-h1">
+                    <span class="fw-bolder">Наши продукты</span>
+                </h1>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="card product-card my-5">
+                            <div class="card-body">
+                                <div class="">
+                                    <img src="img/bottle-1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="my-2">
+                                    <span class="product-card-font me-auto">Масло черного тимина</span>
+                                    <span class="product-card-font-1 float-end"><strong>10990</strong> <i
+                                            class="fas fa-tenge"></i></span>
+                                </div>
+                                <div class="my-2">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="fw-normal float-end">120 гр</span>
+                                </div>
+                                <div class="text-center my-2">
+                                    <button class="btn btn-yellow">Узнать подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="card product-card my-5">
+                            <div class="card-body">
+                                <div class="">
+                                    <img src="img/bottle-1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="my-2">
+                                    <span class="product-card-font me-auto">Масло черного тимина</span>
+                                    <span class="product-card-font-1 float-end"><strong>10990</strong> <i
+                                            class="fas fa-tenge"></i></span>
+                                </div>
+                                <div class="my-2">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="fw-normal float-end">120 гр</span>
+                                </div>
+                                <div class="text-center my-2">
+                                    <button class="btn btn-yellow">Узнать подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="card product-card my-5">
+                            <div class="card-body">
+                                <div class="">
+                                    <img src="img/bottle-1.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="my-2">
+                                    <span class="product-card-font me-auto">Масло черного тимина</span>
+                                    <span class="product-card-font-1 float-end"><strong>10990</strong> <i
+                                            class="fas fa-tenge"></i></span>
+                                </div>
+                                <div class="my-2">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span class="fw-normal float-end">120 гр</span>
+                                </div>
+                                <div class="text-center my-2">
+                                    <button class="btn btn-yellow">Узнать подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <section class="section-3 py-5" style="background: #000">
+        <div class="" style="background: #fff; border-radius: 639px;">
+            <div class="container py-5">
+                <div class="text-center py-5">
+                    <h1 class="title-h1" style="color: #000">
+                        <span>Для кого подходит?</span>
+                    </h1>
+                </div>
+                <div class="">
+
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="for-whom">
+                                <div class="row">
+                                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                                        <div>
+                                            <div class="card cards-with-img w-25">
+                                                <img src="img/img-with-woman.svg" alt="a-girl"/>
+                                                <h5 class="text-center fw-bold">Детям</h5>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <ul class="for-whom-ul">
+                                                <li class="for-whom-li">
+                                                    <p>
+                                                        <strong>Известная с древности пряность по праву считается не только</strong>
+                                                        <br>
+                                                        ароматическим, но и лекарственным растением. Черный тмин
+                                                        используют в медицине при заболеваниях кишечника, в
+                                                        косметологии, в ароматерапии. <br> Узнаем, какие еще полезные
+                                                        свойства есть у этого растения
+                                                    </p>
+                                                </li>
+                                                <li class="for-whom-li">
+                                                    <p>
+                                                        <strong>Известная с древности пряность по праву считается не только</strong>
+                                                        <br>
+                                                        ароматическим, но и лекарственным растением. Черный тмин
+                                                        используют в медицине при заболеваниях кишечника, в
+                                                        косметологии, в ароматерапии.<br> Узнаем, какие еще полезные
+                                                        свойства есть у этого растения
+                                                    </p>
+                                                </li>
+                                                <li class="for-whom-li">
+                                                    <p>
+                                                        <strong>Известная с древности пряность по праву считается не только</strong>
+                                                        <br>
+                                                        ароматическим, но и лекарственным растением. Черный тмин
+                                                        используют в медицине при заболеваниях кишечника, в
+                                                        косметологии, в ароматерапии.<br> Узнаем, какие еще полезные
+                                                        свойства есть у этого растения
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                                        <div>
+                                            <img class="main-product-1 float-lg-end" src="img/main-product-1.png" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <!--<div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-scrollbar"></div>-->
+                </div>
+                <div class="text-center py-5">
+                    <h1 class="title-h1" style="color: #000">
+                        <span>ОТЗЫВЫ ИЗ СОЦИАЛЬНЫХ СЕТЕЙ</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-6 py-5" style="background: #000">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="title-h1-gold">
+                    <span class="fw-bolder">Сертификаты</span>
+                </h1>
+            </div>
+            <div class="card bor-r-50 p-xl-4 p-lg-4 p-md-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="img/certificates/certi-1.png" alt="">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="img/certificates/certi-2.png" alt="">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="img/certificates/certi-3.png" alt="">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="img/certificates/certi-4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-8 py-5" style="background: #000">
+
+    </section>
 </main>
-<footer></footer>
+<footer class="bg-gold py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <img class="img-fluid" src="img/footer-logo.png" alt=""/>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <div class="mb-4">
+                    <h5 class="title-h5 fw-bold">
+                        <span>КОНТАКТЫ</span>
+                    </h5>
+                </div>
+                <div>
+                    <p>
+                        +7 777 123 45 67<br>
+                        +7 787 456 78 91<br>
+                        +7 800 123 45 67
+                    </p>
+                </div>
+                <div class="">
+                    <i class="fab fa-telegram fa-2x"></i>
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <div class="mb-4">
+                    <h5 class="title-h5 fw-bold">
+                        <span>ВАЖНАЯ ИНФОРМАЦИЯ</span>
+                    </h5>
+                </div>
+                <div>
+                    <p>
+                        Распространение официальной статистической информации Евразийского экономического союза
+                        осуществляется Департаментом в соответствии с ежегодно утверждаемой Коллегией Комиссии
+                        Программой статистических работ.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <h5 class="title-h5 fw-bold">
+                            <span>СОЦИАЛЬНЫЕ СЕТИ</span>
+                        </h5>
+                    </div>
+                    <div class="mb-4">
+                        <ul class="footer-ul">
+                            <li style="display: inline-block">
+                                <a class="footer-icons" href="#"><i class="fab fa-whatsapp fa-3x"></i></a>
+                            </li>
+                            <li style="display: inline-block">
+                                <a class="footer-icons" href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+                            </li>
+                            <li style="display: inline-block">
+                                <a class="footer-icons" href="#"><i class="fab fa-telegram fa-3x"></i></a>
+                            </li>
+                            <li style="display: inline-block">
+                                <a class="footer-icons" href="#"><i class="fab fa-instagram fa-3x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        UMMED.KZ@GMAIL.COM <br>
+                        UMMED.KZ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!--SwiperJs-->
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
@@ -117,7 +439,12 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/script.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container');
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+            dynamicBullets: true,
+        },
+    });
 </script>
 </body>
 </html>

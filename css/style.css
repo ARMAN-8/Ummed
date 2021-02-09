@@ -1,15 +1,38 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
+    background: rgb(20,20,20);
+    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(52,52,52,1) 50%);
+}
+
+.bor-r-50 {
+    border-radius: 50px;
+}
+
+.bg-gold {
+    background: radial-gradient(456.36% 5320.01% at -14.79% 136.8%, #FFD58D 0%, #FFF2DB 100%);
+}
+.fab {
+    color: #000;
 }
 
 .main-logo {
     width: 99px;
     height: 63px;
 }
-.header-page {
-    height: 100vh;
-    background: linear-gradient(96.42deg, #C4C4C4 52.54%, rgba(196, 196, 196, 0) 71.83%);;
+
+.navbar-dark {
+    color: #FFD58D;
+    background: rgb(20,20,20);
+    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(52,52,52,1) 50%);
 }
+.nav-link {
+    color: #FFD58D!important;
+}
+.nav-link.active {
+    color: #FFD58D!important;
+    border-bottom: 1px solid #FFD58D;
+}
+
 .nav-item {
     color: #FFD58D;
     font-style: normal;
@@ -25,15 +48,11 @@ html, body {
     border-radius: 52px;
 }
 
-.main-offer {
-    margin-top: 15%;
-
-}
-
 .title-h1 {
     font-weight: bold;
     color: #fff;
-    font-size: 55px;
+    /*font-size: 55px;*/
+    font-size: calc(24px + 16 * (100vw / 1280));
     line-height: 63px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -41,13 +60,20 @@ html, body {
 
 .title-h1-gold {
     color: #FFD58D;
+    font-weight: bold;
+    /*font-size: 55px;*/
+    font-size: calc(24px + 16 * (100vw / 1280));
+    line-height: 63px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
 .btn-dark-gradient {
-    background: rgb(66,66,66);
-    background: -moz-radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
-    background: radial-gradient(circle, rgba(66,66,66,1) 0%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#424242",endColorstr="#000000",GradientType=1);
+    background: rgb(66, 66, 66);
+    background: -moz-radial-gradient(circle, rgba(66, 66, 66, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(66, 66, 66, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(66, 66, 66, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#424242", endColorstr="#000000", GradientType=1);
     border-radius: 52px;
     color: #fff;
     margin-top: 3%;
@@ -58,4 +84,70 @@ html, body {
 
 .btn-dark-gradient:hover {
     color: #cccccc;
+}
+
+.btn-yellow {
+    color: #000;
+    background: radial-gradient(44.96% 391.37% at 49.64% 50%, #FFD215 2.67%, #FFF172 100%);
+    border-radius: 52px;
+    border: 4px solid transparent;
+    font-weight: 800;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.btn-yellow:hover {
+    border: 4px solid rgba(226, 226, 226, 0.7);
+    color: #000;
+    border-radius: 52px;
+    background: radial-gradient(44.96% 391.37% at 49.64% 50%, #FFD215 2.67%, #FFF172 100%);
+}
+
+.product-card-font {
+    font-weight: bolder;
+}
+
+.product-card-font-1 {
+    font-weight: bold;
+}
+
+.fa-star {
+    color: #F4C914;
+}
+
+.product-card {
+    border-radius: 50px;
+}
+
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-icons {
+    margin-right: 8px;
+}
+
+.swiper-pagination {
+    color: red!important;
+}
+
+.cards-with-img {
+    radial-gradient(151.31% 151.31% at 50% -10.62%, #FFD58D 0%, #FFDF6D 48.99%, #FFFFFF 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: transparent;
+    padding: 0;
+    background: transparent;
+
+}
+
+.for-whom-ul {
+    list-style: none;
+}
+
+.for-whom-ul .for-whom-li::before {
+    content: url('../img/ul-dot.png');
+    position: absolute;
+    left: 0;
 }
