@@ -1,7 +1,7 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
-    background: rgb(20,20,20);
-    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(52,52,52,1) 50%);
+    background: rgb(20, 20, 20);
+    background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(52, 52, 52, 1) 50%);
 }
 
 .bor-r-50 {
@@ -11,6 +11,7 @@ html, body {
 .bg-gold {
     background: radial-gradient(456.36% 5320.01% at -14.79% 136.8%, #FFD58D 0%, #FFF2DB 100%);
 }
+
 .fab {
     color: #000;
 }
@@ -22,14 +23,16 @@ html, body {
 
 .navbar-dark {
     color: #FFD58D;
-    background: rgb(20,20,20);
-    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(52,52,52,1) 50%);
+    background: rgb(20, 20, 20);
+    background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(52, 52, 52, 1) 50%);
 }
+
 .nav-link {
-    color: #FFD58D!important;
+    color: #FFD58D !important;
 }
+
 .nav-link.active {
-    color: #FFD58D!important;
+    color: #FFD58D !important;
     border-bottom: 1px solid #FFD58D;
 }
 
@@ -66,6 +69,10 @@ html, body {
     line-height: 63px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.title-h3 {
+    font-weight: bold;
 }
 
 .btn-dark-gradient {
@@ -129,11 +136,11 @@ html, body {
 }
 
 .swiper-pagination {
-    color: red!important;
+    color: red !important;
 }
 
 .cards-with-img {
-    radial-gradient(151.31% 151.31% at 50% -10.62%, #FFD58D 0%, #FFDF6D 48.99%, #FFFFFF 100%);
+radial-gradient(151.31 % 151.31 % at 50 % - 10.62 %, #FFD58D 0 %, #FFDF6D 48.99 %, #FFFFFF 100 %);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: transparent;
@@ -150,4 +157,65 @@ html, body {
     content: url('../img/ul-dot.png');
     position: absolute;
     left: 0;
+}
+
+.for-whom-ul-2 {
+    list-style: none;
+}
+
+.for-whom-ul-2 .for-whom-li-2::before {
+    content: url('../img/ul-dot.png');
+    position: absolute;
+    left: 7%;
+}
+
+/*.for-whom-ul-3 {
+    list-style: none;
+}
+
+.for-whom-ul-3 .for-whom-li-3::before {
+    content: url('../img/ul-dot.png');
+    position: absolute;
+    right: 5%;
+}*/
+
+.cards-reviews {
+    /*border: 1px solid red;*/
+    border-radius: 50px;
+}
+
+.img-reviews {
+    width: 7.6875rem;
+    top: -5rem;
+    position: sticky;
+}
+
+.cards-reviews-p {
+    text-align: justify;
+}
+
+.gold-gradient {
+    background: radial-gradient(111.94% 345.79% at 26.43% 18.4%, #FFD58D 0%, #FFFFFF 100%);
+    border-radius: 1.75rem;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    position: absolute;
+
+    border-right: 10px solid #FFDDA2;
+}
+
+.oiuImg {
+    background: url('../img/oiu.png');
+    height: 500px;
+}
+.gold-gradient-footer {
+    background: radial-gradient(119.12% 831.52% at 30.65% 21.6%, #FFD58D 0%, #FFFAF3 100%);
+    border: 1px solid #000000;
 }
