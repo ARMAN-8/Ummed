@@ -3,6 +3,9 @@
     .main-product {
         width: 10%;
     }
+    .delivery {
+        height: 62.5rem;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -28,6 +31,9 @@
         width: 15.8125rem;
         height: 12.3125rem;
         margin-left: 30%;
+    }
+    .delivery {
+        height: 52.5rem;
     }
 
 }
@@ -57,6 +63,9 @@
         width: 15.8125rem;
         height: 12.3125rem;
     }
+    .delivery {
+        height: 42.5rem;
+    }
 
 }
 
@@ -76,6 +85,9 @@
         margin-top: -8%;
         margin-left: -8%;
     }
+    .delivery {
+        height: 65.5rem;
+    }
 
 }
 
@@ -94,6 +106,9 @@
         height: 33.125rem;
         margin-top: -8%;
         margin-left: -8%;
+    }
+    .delivery {
+        height: 62.5rem;
     }
 
 }
