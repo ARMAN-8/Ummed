@@ -180,7 +180,7 @@ radial-gradient(151.31 % 151.31 % at 50 % - 10.62 %, #FFD58D 0 %, #FFDF6D 48.99 
 }*/
 
 .cards-reviews {
-    /*border: 1px solid red;*/
+    border: transparent;
     border-radius: 50px;
 }
 

@@ -6,6 +6,9 @@
     .delivery {
         height: 62.5rem;
     }
+    .displayNone {
+        display: none;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -34,6 +37,9 @@
     }
     .delivery {
         height: 52.5rem;
+    }
+    .displayNone {
+        display: none;
     }
 
 }
@@ -66,6 +72,9 @@
     .delivery {
         height: 42.5rem;
     }
+    .displayNone {
+        display: block;
+    }
 
 }
 
@@ -88,6 +97,9 @@
     .delivery {
         height: 65.5rem;
     }
+    .displayNone {
+        display: block;
+    }
 
 }
 
@@ -109,6 +121,9 @@
     }
     .delivery {
         height: 62.5rem;
+    }
+    .displayNone {
+        display: block;
     }
 
 }
