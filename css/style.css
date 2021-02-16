@@ -171,11 +171,11 @@ radial-gradient(151.31 % 151.31 % at 50 % - 10.62 %, #FFD58D 0 %, #FFDF6D 48.99 
     list-style: none;
 }
 
-.for-whom-ul-2 .for-whom-li-2::before {
+/*#ownUl #ownUl::before {
     content: url('../img/ul-dot.png');
     position: absolute;
-    left: 7%;
-}
+    left: 2rem;
+}*/
 
 /*.for-whom-ul-3 {
     list-style: none;
