@@ -149,6 +149,13 @@ ul {
   padding-left: 2rem;
 }
 
+.ownLi {
+  list-style: none;
+  padding-left: 2rem;
+  background-image: url('../img/ul-dot.png');
+  background-repeat: no-repeat;
+}
+
 ol,
 ul,
 dl {
