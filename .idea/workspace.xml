@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9f18ef-17c9-4045-bae5-b7046a92b99e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +69,7 @@
       <workItem from="1612886201154" duration="1844000" />
       <workItem from="1612971508571" duration="8082000" />
       <workItem from="1613357612301" duration="616000" />
+      <workItem from="1613446062898" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1612890540101</created>
@@ -142,25 +147,25 @@
     </state>
     <state x="549" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1612880531959" />
     <state x="686" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612506281462" />
-    <state x="470" y="0" key="CommitChangelistDialog2" timestamp="1613139988402">
+    <state x="470" y="0" key="CommitChangelistDialog2" timestamp="1613457199827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="376" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612890539408" />
-    <state x="470" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613139988402" />
+    <state x="470" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613457199827" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1612792012202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612792012202" />
-    <state x="451" y="179" key="Vcs.Push.Dialog.v2" timestamp="1613139990757">
+    <state x="451" y="179" key="Vcs.Push.Dialog.v2" timestamp="1613457202695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612890541669" />
-    <state x="451" y="179" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613139990757" />
-    <state x="565" y="162" width="789" height="717" key="find.popup" timestamp="1613139061488">
+    <state x="451" y="179" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613457202695" />
+    <state x="565" y="162" width="789" height="717" key="find.popup" timestamp="1613456568129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="128" width="631" height="568" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1612882418096" />
-    <state x="565" y="162" width="789" height="717" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613139061488" />
+    <state x="565" y="162" width="789" height="717" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613456568129" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1612705209087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
