@@ -221,7 +221,8 @@ radial-gradient(151.31 % 151.31 % at 50 % - 10.62 %, #FFD58D 0 %, #FFDF6D 48.99 
 
 .oiuImg {
     background: url('../img/oiu.png');
-    height: 500px;
+    background-attachment: fixed;
+    height: auto;
 }
 .gold-gradient-footer {
     background: radial-gradient(119.12% 831.52% at 30.65% 21.6%, #FFD58D 0%, #FFFAF3 100%);
