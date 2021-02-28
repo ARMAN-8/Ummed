@@ -4,12 +4,14 @@ html, body {
     /*background: rgb(20, 20, 20);*/
     /*background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(52, 52, 52, 1) 50%);*/
 }
+
 body {
     background-image: url('../img/centipede.png');
 }
 
 .section-8 {
     background-image: url('../img/mrWho.png');
+    background-color: #000;
 }
 
 .bor-r-50 {
@@ -171,11 +173,11 @@ radial-gradient(151.31 % 151.31 % at 50 % - 10.62 %, #FFD58D 0 %, #FFDF6D 48.99 
     list-style: none;
 }
 
-/*#ownUl #ownUl::before {
+#ownUl #ownUl::before {
     content: url('../img/ul-dot.png');
     position: absolute;
     left: 2rem;
-}*/
+}
 
 /*.for-whom-ul-3 {
     list-style: none;
@@ -224,7 +226,89 @@ radial-gradient(151.31 % 151.31 % at 50 % - 10.62 %, #FFD58D 0 %, #FFDF6D 48.99 
     background-attachment: fixed;
     height: auto;
 }
+
 .gold-gradient-footer {
     background: radial-gradient(119.12% 831.52% at 30.65% 21.6%, #FFD58D 0%, #FFFAF3 100%);
     border: 1px solid #000000;
+}
+
+.digitalHuman {
+    /*background-image: url('/img/digital-human.png');*/
+}
+
+.textFadeRight {
+    text-align: right;
+}
+
+.textFadeLeft {
+    text-align: left;
+}
+
+/*lightbox*/
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+}
+
+.photo-gallery p {
+    color:#7d8285;
+}
+
+.photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+
+@media (max-width:767px) {
+    .photo-gallery h2 {
+        margin-bottom:25px;
+        padding-top:25px;
+        font-size:24px;
+    }
+}
+
+.photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+    margin-bottom:0;
+}
+
+.photo-gallery .photos {
+    padding-bottom:20px;
+}
+
+.photo-gallery .item {
+    padding-bottom:30px;
+}
+
+
+.faq-link {
+    text-decoration: none;
+    color: #fff;
+}
+.faq-link:hover {
+    color: #b8b8b8;
+}
+
+.faq-link:before {
+    font-family: Font Awesome\ 5 Free;
+    font-size: 20px;
+    content: "\f056";
+}
+
+.faq-link.collapsed:before {
+    font-family: Font Awesome\ 5 Free;
+    font-size: 20px;
+    content:"\f055";
+}
+
+.mainProductLogo {
+    background: url('../img/main-product-1.png')center center no-repeat;
+    height: 650px;
 }
