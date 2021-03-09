@@ -1,3 +1,11 @@
+@media (max-width: 576px) {
+    .peopleMobile {
+        display: none;
+    }
+    .main-product-1 {
+        display: none;
+    }
+}
 /*/ Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .main-product {
@@ -16,6 +24,9 @@
         background: #fff; border-radius: 239px;
     }
     .peopleMobile {
+        display: none;
+    }
+    .main-product-1 {
         display: none;
     }
 }
@@ -65,7 +76,10 @@
         background: #fff; border-radius: 239px;
     }
     .peopleMobile {
-        display: block;
+        display: none;
+    }
+    .main-product-1 {
+        display: none;
     }
 
 }
@@ -124,6 +138,9 @@
     .peopleMobile {
         display: block;
     }
+    .main-product-1 {
+        display: block;
+    }
 
 }
 
@@ -169,6 +186,9 @@
     .peopleMobile {
         display: block;
     }
+    .main-product-1 {
+        display: block;
+    }
 
 }
 
@@ -212,6 +232,9 @@
         background: #fff; border-radius: 439px;
     }
     .peopleMobile {
+        display: block;
+    }
+    .main-product-1 {
         display: block;
     }
 }
